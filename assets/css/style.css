@@ -26,3 +26,39 @@ h2 {
     font-size: 280%;
     float: left;
 }
+
+/*navigation links*/
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu ul {
+    float: right;
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#logo,
+#menu {
+    line-height: 75px;
+
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
