@@ -73,7 +73,8 @@ h2 {
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: #fff;
 }
 
@@ -91,11 +92,12 @@ h2 {
     right: 150px;
     position: absolute;
 }
+
 #hero-image {
     height: 600px;
     width: 100%;
     background: url('../images/hero-image\ \(1\).webp') no-repeat center center;
-/* animate zoom effect*/
+    /* animate zoom effect*/
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -104,9 +106,10 @@ h2 {
 
 /* zoom for the hero image*/
 @keyframes hero-zoom {
-    from { 
+    from {
         transform: scale(1);
     }
+
     to {
         transform: scale(1.1);
     }
@@ -120,19 +123,35 @@ h2 {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: blue;
+
 }
+
+
 
 #right-about {
     padding-top: 30px;
-        width: 33%;
-        float: right;
-        background-color: silver;
+    width: 33%;
+    float: right;
+    background-color: silver;
 }
 
 #center-about {
     padding-top: 30px;
-        width: 33%;
-        margin: 0 auto;
-        background-color: green;
+    width: 33%;
+    margin: 0 auto;
+    background-color: green;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
 }
