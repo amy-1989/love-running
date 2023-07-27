@@ -216,60 +216,83 @@ hr {
     border: 2px solid white;
     box-sizing: border-box;
 }
+
 #times h2 {
     color: #fafafa;
 
 }
+
 footer {
     height: 150px;
 }
-.social-networks{
+
+.social-networks {
     text-align: center;
 
 }
-.social-networks > li {
+
+.social-networks>li {
     display: inline;
 }
+
 .social-networks i {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
 }
+
 #photos {
-    clear:both;
+    clear: both;
     line-height: 0;
     column-count: 4;
     column-gap: 0;
 }
-#photos > img {
-    width:100%;
+
+#photos>img {
+    width: 100%;
 
 }
+
 @media screen and (max-width: 1200px) {
     #club-ethos {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
-    
+
     }
+
     #welcome {
         padding: 30px 0;
         margin: 0;
-    
+
     }
-    #left-about, #right-about {
+
+    #left-about,
+    #right-about {
         width: 100%;
         float: left;
         padding: 0;
     }
+
     #center-about {
         clear: both;
         width: 100%;
-            float: left;
-            padding: 0;
+        float: left;
+        padding: 0;
     }
+
     hr {
         display: none;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
     }
 }
